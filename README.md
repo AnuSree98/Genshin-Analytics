@@ -1,6 +1,6 @@
 # Wish Banner Introspective: A Genshin Impact Analytic
 
-Hello, welcome to this project's repository!
+Hello & welcome to this project's repository!
 
 As a huge Genshin Impact fan and a Data Engineer by profession, this is a little passion project of mine that combines both of my interests.
 
