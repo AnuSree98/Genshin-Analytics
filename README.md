@@ -1,6 +1,6 @@
 # Wish Banner Introspective: A Genshin Impact Analytic
 
-Hello & welcome to this project's repository!
+Hello, welcome to this project's repository!
 
 As a huge Genshin Impact fan and a Data Engineer by profession, this is a little passion project of mine that combines both of my interests.
 
@@ -15,7 +15,7 @@ This project will be using a Medallion Architecture (Bronze -> Silver -> Gold) o
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-![alt text](architecture.drawio.svg)
+![Data Architecture](docs/data_architecture.png)
 
 ## Project Requirements
 
