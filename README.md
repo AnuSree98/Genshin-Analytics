@@ -9,11 +9,11 @@ People who are familiar with gacha games are widely aware of how different chara
 ---
 
 ## Data Architecture
-This project will be using a Medallion Architecture (Bronze -> Silver -> Gold) on Databricks with Delta Lake and transformation logic using dbt.
+This project will be using a Medallion Architecture (Bronze -> Silver -> Gold) on Microsoft Fabric and transformation logic using dbt.
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from websites and stored on Databricks.
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from websites and stored on Lakehouse.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics via PowerBI.
 
 ![Data Architecture](docs/Data_Architecture.svg)
 
@@ -42,4 +42,4 @@ Develop SQL-based analytics to deliver detailed insights into:
 ---
 
 ### Limitations: 
-The parent company of the game does not publish any official revenue data. All the data used in this project is from third-party websites.
+The parent company of the game does not publish any official revenue data. All the data used in this project is from a third-party website, which is operated using community-submitted data. And thus, revenue data is an estimate. 
