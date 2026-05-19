@@ -22,7 +22,7 @@ This project will be using a Medallion Architecture (Bronze -> Silver -> Gold) o
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Build a data warehouse with Databricks, perform transformations using dbt; enabling analytical reporting and informed decision-making.
+Build a data warehouse with Lakehouse, perform transformations using dbt; enabling analytical reporting and informed decision-making.
 
 #### Specifications
 - **Data Sources**: Import data from APIs of websites dedicated to Genshin character information.
